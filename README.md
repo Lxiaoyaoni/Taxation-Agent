@@ -218,8 +218,5 @@ python webui.py
 - 在Agent中引入REACT思想，REACT是一种多步骤推理框架，常用于增强模型对于复杂问题进行的多轮交互的Agent的推理能力。它的全称是“Reasoning, Acting, and Communicating Thoughtfully”。在REACT框架中，模型通过系统化的步骤进行推理（Reasoning），然后采取行动（Acting）并在沟通过程中精细化这些步骤。这种框架强调模型如何清晰地表达自己的推理过程，并逐步增强回答的完整性和准确性。
 - 考虑使用更高效的代理框架Plan-Execute Agent，规划模块(Planning Module)负责接收输入问题或任务，并生成一个解决问题所需的行动计划。这个计划通常是一系列逻辑步骤或子任务的序列。执行模块(Execution Module)按照规划模块生成的计划逐步执行每个子任务。这可能涉及到调用外部API、查询数据库、运行其他代理等操作。通过结构化的方法来构建能够处理复杂任务的智能代理。
 # 致谢
-### 核心贡献者
-- 康鸿-项目负责人(河北科技大学-算法工程师)
-- 靳国伟-项目负责人(河北科技大学-算法工程师)
 # 参考文献
 [https://mp.weixin.qq.com/s/RONG0mK07ZHrQZ5mgr31cg](#aaa)
